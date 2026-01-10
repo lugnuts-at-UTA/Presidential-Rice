@@ -1,0 +1,5 @@
+background = {bg}
+text = {fg}
+selected-background = {color5}
+selected-text = {color0}
+placeholder-text = {color8}

@@ -1,0 +1,7 @@
+2025-12-04 17:13:42.622 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-04 17:13:42.647 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-04 17:13:42.648 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'mcpConfigurationProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-04 17:13:43.143 [info] Started local extension host with pid 80050.
+2025-12-04 17:13:43.151 [info] Started initializing default profile extensions in extensions installation folder. file:///home/presrice/.vscode-oss/extensions
+2025-12-04 17:13:43.367 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/presrice/.vscode-oss/extensions
+2025-12-04 17:13:43.389 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system

@@ -1,0 +1,80 @@
+* {
+  font-family: "dejavu", cursive, sans-serif;
+  border: none;
+  text-shadow: none;
+  box-shadow: none;
+  border-radius: 1;
+  font-weight: 500;
+  font-size: 15.0px;
+  color: #5d4037;
+  padding: 0 4px;
+}
+
+window#waybar {
+  background: linear-gradient(to bottom, #fef9e7 0%, #f5e6d3 100%);  /* Beige paper base */
+  background-color: #faebd7;  /* Fallback antique white */
+  border-bottom: 3px solid rgba(0,0,0,0.1);  /* Subtle bottom edge */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);  /* Lifted paper shadow */
+
+  /* Paper texture noise (pure CSS) */
+  background-image: 
+    repeating-linear-gradient(transparent, transparent 30px, rgba(139,69,19,0.05) 30px, rgba(139,69,19,0.05) 31px), radial-gradient(circle, transparent 20%, rgba(165,42,42,0.03) 100%);  
+
+  /* Optional torn edge feel (subtle irregularity) */
+  border-radius: 8px 8px 0 0;
+  margin: 8px 8px 0 8px;  /* Slight offset from screen edges for "floating note" */
+}
+
+#workspaces button,
+#clock,
+#cpu,
+#memory,
+#network,
+#battery,
+#cava,
+#tray {
+  background: transparent;
+  border-radius: 6px;
+  margin: 4px 2px;
+  padding: 0px 10px;
+  transition: all 0.3s ease;
+}
+
+#workspaces button:hover,
+#clock:hover {
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+tooltip {
+  background: #faebd7;
+  border: 1px solid #d2b48c;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+
+#taskbar button {
+  min-width: 175px;
+
+  border-radius: 0;
+  border-bottom: 3px solid #969696;
+
+  transition-property: border-color;
+  transition-duration: 150ms;
+}
+
+#taskbar button.active {
+  border-bottom: 3px solid #333333;
+}
+
+#workspaces button {
+  border-bottom: 3px solid #969696;
+
+  transition-property: border-color;
+  transition-duration: 150ms;
+}
+
+#workspaces button.active {
+  border-bottom: 3px solid #333333;
+}
+
